@@ -1,6 +1,6 @@
-# IOTA Workshop
+# IOTA Workshop for BlockchainLab Drenthe
 
-Simple examples to help a developer work through interacting with the IOTA network. 
+Simple examples to help a developer work through interacting with the IOTA network. Forked from the repo from Lewis Freiberg.
 
 ### Getting started
 
@@ -20,7 +20,7 @@ You should receive a message including the statistics of an IOTA node. This mean
 ### Examples included
 
 Here are the examples included:
-
+Simple:
 - 1-hello-world.js
 - 2.1-send-hello.js
 - 2.2-fetch-hello.js
@@ -29,6 +29,8 @@ Here are the examples included:
 - 4-send-tokens.js
 - 5.1-send-data.js
 - 5.2-fetch-data.js
+
+a bit more advanced:
 - 6.1-zmq-listen.js
 - 6.2-zmq-message.js
 - 7.1-mam-public-send.js
@@ -36,15 +38,6 @@ Here are the examples included:
 - 7.3-mam-private-send.js
 - 7.4-mam-private-fetch.js
 - 7.5-mam-public-watch.js
-
-
-
-### Work to be done:
-
-- Provide directed commentary alongside each example!
-- Improve code commenting
-- Refactor code into a single style (arrows vs functions)
-- Add complex application examples
 
 
 
