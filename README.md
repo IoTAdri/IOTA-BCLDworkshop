@@ -39,6 +39,8 @@ a bit more advanced:
 - 7.4-mam-private-fetch.js
 - 7.5-mam-public-watch.js
 
+Usefull link to js api-reference: 
+https://github.com/iotaledger/iota.js/blob/next/api_reference.md#module_core.getLatestInclusion
 
 
 #### Contribution

@@ -1,6 +1,8 @@
-///////////////////////////////
+///////////////////////////////////////
 // MAM: Publish messages to Public Stream
-///////////////////////////////
+// BlockchainLab Drenthe IOTA-workshop
+// Adri Wischmann 21/2/2019
+///////////////////////////////////////
 
 const Mam = require('@iota/mam')
 const { asciiToTrytes } = require('@iota/converter')
@@ -18,10 +20,10 @@ const publish = async data => {
   mamState = message.state
 
   // Attach the message
-  await Mam.attach(message.payload, message.address, 3, 9)
+  await Mam.attach(message.payload, message.address, 3, 9) // 9 for devnet, 14 for mainnet
   console.log('Sent message to the Tangle!')
-  console.log('Address: ' + message.root)
+  console.log('MAM-RootAddress: ' + message.root)
 }
 
-publish('Super public message')
-publish('Super public message2')
+publish('First Super public message from BCLD Workshop')
+publish('Second Super public message from BCLD Workshop')

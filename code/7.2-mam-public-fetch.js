@@ -1,6 +1,8 @@
-///////////////////////////////
+///////////////////////////////////////
 // MAM: Fetch messages to Public Stream
-///////////////////////////////
+// BlockchainLab Drenthe IOTA-workshop
+// Adri Wischmann 21/2/2019
+///////////////////////////////////////
 
 const Mam = require('@iota/mam')
 const { trytesToAscii } = require('@iota/converter')
@@ -8,6 +10,7 @@ const { trytesToAscii } = require('@iota/converter')
 // Initialize MAM State - PUBLIC
 Mam.init('https://nodes.devnet.thetangle.org:443')
 
+// Fill in the MAM-RootAddress from 7.1
 const root =
   'OXPOYTSZEOGUOITHYBWDYHXNCLRVQHGXMFMEIJLNHNDEWJYWQHGRPTQJ99MUWRDAOVPBIGSW9MSQLMOOA'
 

@@ -1,15 +1,18 @@
-///////////////////////////////
+///////////////////////////////////////
 // MAM: Publish messages to Private Stream
-///////////////////////////////
+// BlockchainLab Drenthe IOTA-workshop
+// Adri Wischmann 21/2/2019
+///////////////////////////////////////
 
 const Mam = require('@iota/mam')
 const { trytesToAscii } = require('@iota/converter')
 
 // Init State
+// Fill in the MAM-RootAddress from 7.3
 let root =
   'QQUTOYQDKWGEOSNDERIUTLNFJLKXKPGMZVDJJJNPMSXSIYHJDUUMZUEI9GGQSFQJD9GRVGCMNDDATPWDN'
 const mamType = 'restricted'
-const mamSecret = 'DONTSHARETHIS'
+const mamSecret = 'VERYSECRETKEYFROMBCLD'
 
 // Initialise MAM State
 let mamState = Mam.init('https://nodes.devnet.iota.org:443')
