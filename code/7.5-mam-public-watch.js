@@ -1,8 +1,15 @@
+///////////////////////////////////////
+// MAM: watch Public stream
+// BlockchainLab Drenthe IOTA-workshop
+// Adri Wischmann 21/2/2019
+///////////////////////////////////////
+
 const Mam = require('@iota/mam')
 const { asciiToTrytes, trytesToAscii } = require('@iota/converter')
 
-// Enter root of the
-const root = ''
+// Fill in the MAM-RootAddress from 7.1
+let root = ''
+let nextRoot = root
 
 async function initMam() {
   console.log('\r\n\r\n')
