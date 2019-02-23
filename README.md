@@ -20,6 +20,7 @@ You should receive a message including the statistics of an IOTA node. This mean
 ### Examples included
 
 Here are the examples included:
+
 Simple:
 - 1-hello-world.js
 - 2.1-send-hello.js
@@ -43,10 +44,8 @@ a bit more advanced:
 
 #### Contribution
 
-PRs are welcome on `master`
-
-
-
+Master by Lewis Freiberg
+Adaptations by Adri Wischmann
 ----
 
 :beers: Lewi
