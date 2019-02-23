@@ -32,8 +32,7 @@ Simple:
 - 5.2-fetch-data.js
 
 a bit more advanced:
-- 6.1-zmq-listen.js
-- 6.2-zmq-message.js
+- 6-zmq-listen.js
 - 7.1-mam-public-send.js
 - 7.2-mam-public-fetch.js
 - 7.3-mam-private-send.js
