@@ -5,7 +5,6 @@
 ///////////////////////////////////////
 
 const iotaLibrary = require('@iota/core')
-const Converter = require('@iota/converter')
 
 const iota = iotaLibrary.composeAPI({
     provider: 'https://nodes.devnet.thetangle.org:443'    //Fulnode Devnet
@@ -20,7 +19,8 @@ const address =
 const seed =
   'DITISDESUPERGEHEIMESEEDVANDEIOTAWORKSHOPVANBLOCKCHAINLABDRENTHE99999999999999999D'
     
-const boodschap = Converter.asciiToTrytes('Dit is je eerste boodschap vanuit de IOTA-workshop bij de Blockchain-meetup Drenthe (of misschien heb je het wel vaker gedaan)')
+const boodschap = 'DEZEBOODSCHAPSTAATINTRYTES9JEKUNTDUSALLEENATOTENMETZEN9GEBRUIKEN'
+// Sending an ASCII-message is done in example 5.1
   
 const transfers = [
   {
