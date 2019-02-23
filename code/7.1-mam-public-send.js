@@ -11,7 +11,7 @@ let mamState = Mam.init('https://nodes.devnet.thetangle.org:443')
 mamState = Mam.changeMode(mamState, 'public')
 
 const publish = async data => {
-  // Convert the JSON to trytes and create a MAM message
+  // Convert the message to trytes and create a MAM message
   const trytes = asciiToTrytes(data)
   const message = Mam.create(mamState, trytes)
 
