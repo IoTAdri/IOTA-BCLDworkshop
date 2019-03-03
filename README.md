@@ -42,11 +42,15 @@ a bit more advanced:
 Usefull link to js api-reference: 
 https://github.com/iotaledger/iota.js/blob/next/api_reference.md#module_core.getLatestInclusion
 
+Usefull link to Robert Lie's light wallet:
+https://www.mobilefish.com/services/cryptocurrency/iota_wallet.html
 
-#### Contribution
+### Contribution
 
 Master by Lewis Freiberg
+
 Adaptations by Adri Wischmann
+
 ----
 
 :beers: Lewi
